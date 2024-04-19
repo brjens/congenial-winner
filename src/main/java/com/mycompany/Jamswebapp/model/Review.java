@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.model;
 import java.time.LocalDate;
 
 @Entity
@@ -11,7 +11,7 @@ public class Review {
 	private Character name;
 	@Column
 	private String text;
-	@Column;
+	@Column
 	private Date date;
 	@Column
 	private String email;
